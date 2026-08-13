@@ -1,3 +1,29 @@
 h1{
     color: rgb(248, 3, 187);
 }
+.card{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50px;
+    width: 350px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 15px 20px rgb(96, 97, 97) ;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    width: 60%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.card button:hover{
+    background-color: rgb(133, 187, 234);
+    cursor: pointer;
+}
